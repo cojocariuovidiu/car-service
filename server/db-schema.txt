@@ -1,0 +1,10 @@
+actors
+- Vendors
+    - Registrations
+    - Add stores
+        - Feedeack
+        - Reviews
+        - Ratings
+        
+- Consumers
+- Admins

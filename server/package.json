@@ -1,0 +1,24 @@
+{
+  "name": "car-service",
+  "version": "1.0.0",
+  "description": "car service MEAN stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishkumar-ui/car-service.git"
+  },
+  "author": "Ashish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashishkumar-ui/car-service/issues"
+  },
+  "homepage": "https://github.com/ashishkumar-ui/car-service#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "path": "^0.12.7"
+  }
+}

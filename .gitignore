@@ -1,0 +1,3 @@
+$ cat .gitignore
+# Ignore node module and typing folders
+server/node_modules

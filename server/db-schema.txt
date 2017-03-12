@@ -1,4 +1,6 @@
 actors
+=======================
+
 - Vendors
     - Registrations
     - Add stores
@@ -7,4 +9,54 @@ actors
         - Ratings
         
 - Consumers
+    - Registration
+    - Register Vehicles
+    - Search stores (based on location & services required)
+
 - Admins
+
+{
+    id: 1,
+    name: "Test Vendor",
+    email: "test@vendor.com",
+    displayImage: "/path",
+    stores: [
+        {
+            id: 1,
+            name: "Shukla Car Services",
+            location: {
+                address1: "supertech Capetown",
+                address2: "sector 74",
+                city: "noida",
+                state: "UP",
+                country: "India",
+                pin: 201301
+            },
+            vehicleSupport: ["2 Wheeler", "4 Wheelers", "Heavy Vehicles"],
+            avgRating: 3,
+            services: [
+                {
+                    id: 1,
+                    name: "Washing",
+                    desc: "car/bike Washing"
+                }
+            ],
+            reviews: [
+                {
+                    userName: "Ashish",
+                    email: "ashish@kumarashish.com",
+                    rating: 4,
+                    comments: "awesome service"
+                }
+            ]
+        }
+    ]
+}
+
+
+https://www.google.co.in/maps/place/
+
+
+Unnamed+Road,+Supertech+Capetown,+Sector+74,+Noida,+Uttar+Pradesh+201304/
+
+@28.5756538,77.3912666,17z/data=!3m1!4b1!4m5!3m4!1s0x390cef6922d88cd1:0x24199cf9ea586e74!8m2!3d28.5756538!4d77.3934553

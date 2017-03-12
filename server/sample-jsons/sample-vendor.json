@@ -1,0 +1,42 @@
+{
+    "id": 1,
+    "name": "Test Vendor",
+    "email": "test@vendor.com",
+    "displayImage": "/path",
+    "stores": [
+        {
+            "id": 1,
+            "name": "Shukla Car Services",
+            "isApproved": true,
+            "location": {
+                "address1": "supertech Capetown",
+                "address2": "sector 74",
+                "city": "noida",
+                "state": "UP",
+                "country": "India",
+                "pin": 201301
+            },
+            "vehicleSupport": [
+                "2 Wheeler",
+                "4 Wheelers",
+                "Heavy Vehicles"
+            ],
+            "avgRating": 3,
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Washing",
+                    "desc": "car/bike Washing"
+                }
+            ],
+            "reviews": [
+                {
+                    "userName": "Ashish",
+                    "email": "ashish@kumarashish.com",
+                    "rating": 4,
+                    "comments": "awesome service"
+                }
+            ]
+        }
+    ]
+}

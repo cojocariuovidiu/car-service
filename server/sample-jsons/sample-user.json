@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "name": "Ashish Kumar",
+    "email": "ashish@kumarashish.com",
+    "displayPicture": "/some/image/path.jpg",
+    "vehicles": [
+        {
+            "id": 1,
+            "type": "2 wheeler",
+            "brand": "suzuki",
+            "model": "gixxer",
+            "hasWarranty": true,
+            "makeYear": 2015,
+            "registrationNumber": "UP16 BF 5003"
+        }
+    ]
+}
